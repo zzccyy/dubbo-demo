@@ -7,4 +7,6 @@ package com.ciitc.api.service;
 public interface DemoService {
 
     String sayHello(String name);
+
+    String sayBye(String name);
 }

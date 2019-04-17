@@ -17,4 +17,10 @@ public class DemoServiceImpl implements DemoService {
         System.out.println("****** demoprovider被访问 ******");
         return "Hello, " + name + " (from Spring Boot)";
     }
+
+    @Override
+    public String sayBye(String name) {
+        System.out.println("****** demoprovider被访问 ******");
+        return "Bye, " + name + " (from Spring Boot)";
+    }
 }
