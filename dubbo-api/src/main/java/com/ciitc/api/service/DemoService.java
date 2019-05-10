@@ -8,5 +8,5 @@ public interface DemoService {
 
     String sayHello(String name);
 
-    String sayBye(String name);
+    Object listQuery(Object requestJson);
 }

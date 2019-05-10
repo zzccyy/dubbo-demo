@@ -13,4 +13,8 @@ public class DemoServiceConsumer {
     public String sayHello(String name) {
         return demoService.sayHello(name);
     }
+
+    public Object listQuery(Object requestJson) {
+        return demoService.listQuery(requestJson);
+    }
 }
